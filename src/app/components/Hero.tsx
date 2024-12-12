@@ -25,7 +25,7 @@ const Hero = () => {
                 />
                 <div>
                   <h2 className="text-2xl font-semibold">Director's Message</h2>
-                  <p className="text-blue-200">Dr. Ahmed Khan</p>
+                  <p className="text-blue-200">Naseer Ahmad</p>
                 </div>
               </div>
               <p className="text-lg">
