@@ -1,20 +1,28 @@
-import Hero from './components/Hero'
-import Gallery from './components/Gallery'
-import FeesStructure from './components/FeesStructure'
-import Faculty from './components/Faculty'
-import Activities from './components/Activities'
-import Courses from './components/Courses'
+import './globals.css'
+import { Inter } from 'next/font/google'
+import Navbar from './components/Navbar'
+import Footer from './components/Footer'
 
-export default function Home() {
+const inter = Inter({ subsets: ['latin'] })
+
+export const metadata = {
+  title: 'Sarhad University Mardan Campus',
+  description: 'Welcome to Sarhad University Mardan Campus - Empowering minds, shaping futures.',
+}
+
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode
+}) {
   return (
-    <div className="min-h-screen bg-gray-50">
-      <Hero />
-      <Courses />
-      <Gallery />
-      <FeesStructure />
-      <Faculty />
-      <Activities />
-    </div>
+    <html lang="en">
+      <body className={inter.className}>
+        <Navbar />
+        <main>{children}</main>
+        <Footer />
+      </body>
+    </html>
   )
 }
 
