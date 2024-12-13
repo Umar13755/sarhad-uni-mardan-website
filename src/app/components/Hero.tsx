@@ -34,11 +34,11 @@ const Hero = () => {
             </div>
             <div className="grid grid-cols-2 gap-4">
               <div className="bg-white/10 backdrop-blur-md rounded-lg p-4 text-center">
-                <h3 className="text-2xl font-bold mb-2">5000+</h3>
+                <h3 className="text-2xl font-bold mb-2">500+</h3>
                 <p>Enrolled Students</p>
               </div>
               <div className="bg-white/10 backdrop-blur-md rounded-lg p-4 text-center">
-                <h3 className="text-2xl font-bold mb-2">200+</h3>
+                <h3 className="text-2xl font-bold mb-2">30+</h3>
                 <p>Faculty Members</p>
               </div>
             </div>
