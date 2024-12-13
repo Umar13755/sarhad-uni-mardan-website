@@ -2,10 +2,10 @@ import Image from 'next/image'
 
 const Faculty = () => {
   const facultyMembers = [
-    { name: "Dr. Aisha Khan", position: "Dean of Computer Science", image: "/placeholder.svg?height=150&width=150" },
-    { name: "Prof. Muhammad Ali", position: "Head of Business School", image: "/placeholder.svg?height=150&width=150" },
-    { name: "Dr. Sarah Ahmed", position: "Chair of Engineering Department", image: "/placeholder.svg?height=150&width=150" },
-    { name: "Prof. Zainab Malik", position: "Director of Research", image: "/placeholder.svg?height=150&width=150" },
+    { name: "Naseer Khan", position: "Director of SUIT DEC", image: "/placeholder.svg?height=150&width=150" },
+    { name: "Abid Khan", position: "Head of Department Faculty of Computing", image: "/placeholder.svg?height=150&width=150" },
+    { name: "Khayyam", position: "Lectuer Software Engineering", image: "/placeholder.svg?height=150&width=150" },
+    { name: "Prof. Qassur", position: "Lecturer Civics", image: "/placeholder.svg?height=150&width=150" },
   ]
 
   return (
